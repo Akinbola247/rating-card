@@ -1,0 +1,118 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    
+}
+.box{
+    background-color: hsl(213, 19%, 18%);
+    height: 400px;
+    width: 400px;
+    border-radius: 10%; 
+    position: absolute; 
+    
+}
+
+.invisible{
+    visibility: hidden;
+}
+.visible{
+    visibility: visible;
+}
+.box2{
+    background-color: hsl(213, 19%, 18%);
+    height: 400px;
+    width: 400px;
+    border-radius: 10%;  
+    
+    
+}
+
+.select{
+    background-color: hsl(212, 17%, 21%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    height: 2em;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FC7614;
+    border-radius: 15px;
+}
+.svgimg1{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.svgimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    background-color: hsl(212, 17%, 21%);
+    margin: 10% 10%;
+}
+
+#text1{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 15px 20px
+    
+
+}
+#text {
+    color: hsl(0, 0%, 100%);
+    margin: 10% 10%;
+}
+.para {
+    color: hsl(216, 12%, 54%);
+}
+.rate {
+    color: hsl(0, 0%, 100%);
+    justify-content: center;
+    border-radius: 70%;
+    border: none;
+    background-color: hsl(212, 17%, 21%);
+    height: 35px;
+    width: 35px;
+    margin: 10% 7% 10% 1%;
+    display: inline;
+}
+.rate:hover {
+    background-color: #FC7614;
+}
+.submit {
+    color: hsl(0, 0%, 100%);
+    width: 80%;
+    height: 2.7em;
+    background-color: #FC7614;
+    border: none;
+    border-radius: 15px;
+    margin-left: 10%;
+}
+.submit:hover {
+    background-color: white;
+    color: #FC7614;
+}
+.pressed {
+    background-color: #FC7614;
+    color : hsl(0, 0%, 100%)
+}
+.unpressed{
+    background-color: hsl(212, 17%, 21%);
+    color: hsl(0, 0%, 100%); 
+}
