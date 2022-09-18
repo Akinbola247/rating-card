@@ -17,11 +17,14 @@ const timeOptions = timeRangeWrapper.querySelectorAll('.rate');
     });
 
 function myFunction() {
-        var box = document.querySelector(".box");
-        if (box.style.display === "none") {
+    var box = document.querySelector(".box"); 
+    if (!ratedval.innerText){
+        alert("please make a selection");
+    } else if (box.style.display === "none") {
           box.style.display = "block";
-        } else {
+    }else {
           box.style.display = "none";
         }
       }
+
 
